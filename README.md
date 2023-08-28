@@ -62,7 +62,7 @@ To complete the assignment, follow the below steps.
  
    Ansible will connect to the remote host, transfer the script, execute it, and then print the output of the script execution.
 
-   You should see the "Hello, World!" message printed as part of the script output.
+   You should see the `"Hello, World!"` message printed as part of the script output.
 
 
 
