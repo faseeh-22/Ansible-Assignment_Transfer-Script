@@ -1,7 +1,7 @@
 
 # Ansible Assignment:
 
-> Through ansible playbook transfer and execute a script  on any specific location. 
+Through ansible playbook transfer and execute a script  on any specific location. 
 
 To complete the assignment, follow the below steps.
 
@@ -81,7 +81,7 @@ To complete the assignment, follow the below steps.
 
 
 **- Transfer the Script:**
-	
+```	
  **- copy:** Copies a file from the control machine to the remote host.
 	
  **- src:** Source file path on the control machine.
@@ -89,13 +89,13 @@ To complete the assignment, follow the below steps.
  **- dest:** Destination path on the remote host.
 	
  **- mode:** Sets the file permissions to allow script execution.
-
+```
 
 
 **- Execute the Script:**
-	
+```	
  **- command:** Executes a command on the remote host.
-	
+```	
  - The script is executed using the `sh` command.
 
 
