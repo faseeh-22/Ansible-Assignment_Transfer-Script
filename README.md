@@ -1,7 +1,7 @@
 
 # Ansible Assignment:
 
-Through ansible playbook transfer and execute a script  on any specific location. 
+> Through ansible playbook transfer and execute a script  on any specific location. 
 
 To complete the assignment, follow the below steps.
 
