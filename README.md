@@ -82,19 +82,19 @@ To complete the assignment, follow the below steps.
 
 **- Transfer the Script:**
 ```	
- - copy: Copies a file from the control machine to the remote host.
+ -copy: Copies a file from the control machine to the remote host.
 	
- - src: Source file path on the control machine.
+ -src: Source file path on the control machine.
 	
- - dest: Destination path on the remote host.
+ -dest: Destination path on the remote host.
 	
- - mode: Sets the file permissions to allow script execution.
+ -mode: Sets the file permissions to allow script execution.
 ```
 
 
 **- Execute the Script:**
 ```	
- - command: Executes a command on the remote host.
+ -command: Executes a command on the remote host.
 ```	
  - The script is executed using the `sh` command.
 
@@ -102,9 +102,9 @@ To complete the assignment, follow the below steps.
 
 **- Print Script Output:**
 ```	
- - debug: Displays debug information.
+ -debug: Displays debug information.
 	
- - var: Specifies the variable whose value should be displayed (script_output.stdout).
+ -var: Specifies the variable whose value should be displayed (script_output.stdout).
 ```
 
 
