@@ -96,7 +96,7 @@ To complete the assignment, follow the below steps.
 ```	
  -command: Executes a command on the remote host.
 	
- -The script is executed using the `sh` command.
+  The script is executed using the "sh" command.
 ```
 
 
