@@ -69,24 +69,34 @@ To complete the assignment, follow the below steps.
 ## Explanation of Playbook:
 
 **- name:** Descriptive name for the playbook.
+
 **- hosts:** Specifies the target remote host(s) where the tasks will be executed.
+
 **- remote_user:** The remote user used to connect to the remote host.
+
 **- become:** This allows the tasks to run with elevated privileges (usually as a superuser like `root`).
+
 **- tasks:** Contains a list of tasks that Ansible will execute sequentially.
 
 
 
 **- Transfer the Script:**
-	**- copy:** Copies a file from the control machine to the remote host.
-	**- src:** Source file path on the control machine.
-	**- dest:** Destination path on the remote host.
-	**- mode:** Sets the file permissions to allow script execution.
+	
+ **- copy:** Copies a file from the control machine to the remote host.
+	
+ **- src:** Source file path on the control machine.
+	
+ **- dest:** Destination path on the remote host.
+	
+ **- mode:** Sets the file permissions to allow script execution.
 
 
 
 **- Execute the Script:**
-	**- command:** Executes a command on the remote host.
-	- The script is executed using the `sh` command.
+	
+ **- command:** Executes a command on the remote host.
+	
+ - The script is executed using the `sh` command.
 
 
 
