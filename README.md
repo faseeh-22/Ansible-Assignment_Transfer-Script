@@ -29,7 +29,7 @@ To complete the assignment, follow the below steps.
 
 **2. Create the Ansible Playbook:**
 
-  Save the following playbook content in a file named `execute_script.yml` on the control machine.
+  Save the following playbook content in a file named `transfer-script.yml` on the control machine.
 
    ```
    ---
