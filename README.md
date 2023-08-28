@@ -101,8 +101,10 @@ To complete the assignment, follow the below steps.
 
 
 **- Print Script Output:**
-	**- debug:** Displays debug information.
-	**- var:** Specifies the variable whose value should be displayed (script_output.stdout).
+	
+ **- debug:** Displays debug information.
+	
+ **- var:** Specifies the variable whose value should be displayed (script_output.stdout).
 
 
 
